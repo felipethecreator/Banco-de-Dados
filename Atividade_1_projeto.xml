@@ -1,0 +1,686 @@
+<?xml version="1.0"?>
+<MER>
+	<Informacoes>
+		<Posicao Left="0" Top="0"/>
+		<TotalItens Valor="56"/>
+		<Tipo Valor="CONCEITUAL"/>
+		<Versao Valor="2.0.0"/>
+		<Autor Valor=""/>
+		<Observacao Valor=""/>
+		<Template>
+      <CAMPOS/>
+      <TIPOS/>
+      <COMPLEMENTO_CAMPOS/>
+      <COMPLEMENTO_TABELAS/>
+      <DDL>
+        <CTab_A>CREATE TABLE *$nome_tabela</CTab_A>
+        <CTab_B> (</CTab_B>
+        <CTab_Compl>*$compl_tabela</CTab_Compl>
+        <CTab_C>)*$separador*$\n</CTab_C>
+        <CCamp>*$nome_campo *$tipo_campo *$compl_campo</CCamp>
+        <Pk_inTab>-1</Pk_inTab>
+        <Fk_inTab>-1</Fk_inTab>
+        <Const_Nomear>0</Const_Nomear>
+        <CConst_Nome>*$nome_tabela_*$envol_campo</CConst_Nome>
+        <Separador></Separador>
+      </DDL>
+    </Template>
+	</Informacoes>
+	<Entidades>
+    <Entidade nome="EMPRESA" id="51">
+      <Left Valor="143"/>
+      <Top Valor="273"/>
+      <Width Valor="102"/>
+      <Height Valor="66"/>
+      <Fonte default="0">
+        <FonteNome Valor="Tahoma"/>
+        <FonteTamanho Valor="8"/>
+        <FonteEstilo Valor="[]"/>
+        <FonteCor Valor="0"/>
+      </Fonte>
+      <Atributos>
+        <Atributo nome="Endereço" id="60">
+          <Left Valor="168"/>
+          <Top Valor="417"/>
+          <Width Valor="72"/>
+          <Height Valor="16"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Atributos/>
+          <AtributosOcultos/>
+          <Dicionario></Dicionario>
+          <Nula Valor="0"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <MaxCard Valor="1"/>
+          <MinCard Valor="1"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <Multivalorado Valor="0"/>
+          <Orientacao Valor="3"/>
+          <TamAuto Valor="-1"/>
+          <Desvio Valor="10"/>
+          <BarraID Valor="61"/>
+          <Ligacoes>
+            <Ligacao Destino_ID="51">
+              <MostraCardinalidade Valor="0" Card_id="62"/>
+              <Cardinalidades Cardinalidade="4"/>
+              <Orientacao Valor="0"/>
+              <Fraca Valor="0"/>
+            </Ligacao>
+          </Ligacoes>
+        </Atributo>
+        <Atributo nome="Código" id="63">
+          <Left Valor="218"/>
+          <Top Valor="370"/>
+          <Width Valor="60"/>
+          <Height Valor="16"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Atributos/>
+          <AtributosOcultos/>
+          <Dicionario></Dicionario>
+          <Nula Valor="0"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <MaxCard Valor="1"/>
+          <MinCard Valor="1"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="-1"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <Multivalorado Valor="0"/>
+          <Orientacao Valor="3"/>
+          <TamAuto Valor="-1"/>
+          <Desvio Valor="10"/>
+          <BarraID Valor="64"/>
+          <Ligacoes>
+            <Ligacao Destino_ID="51">
+              <MostraCardinalidade Valor="0" Card_id="65"/>
+              <Cardinalidades Cardinalidade="4"/>
+              <Orientacao Valor="0"/>
+              <Fraca Valor="0"/>
+            </Ligacao>
+          </Ligacoes>
+        </Atributo>
+        <Atributo nome="Nome" id="66">
+          <Left Valor="193"/>
+          <Top Valor="393"/>
+          <Width Valor="54"/>
+          <Height Valor="16"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Atributos/>
+          <AtributosOcultos/>
+          <Dicionario></Dicionario>
+          <Nula Valor="0"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <MaxCard Valor="1"/>
+          <MinCard Valor="1"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <Multivalorado Valor="0"/>
+          <Orientacao Valor="3"/>
+          <TamAuto Valor="-1"/>
+          <Desvio Valor="10"/>
+          <BarraID Valor="67"/>
+          <Ligacoes>
+            <Ligacao Destino_ID="51">
+              <MostraCardinalidade Valor="0" Card_id="68"/>
+              <Cardinalidades Cardinalidade="4"/>
+              <Orientacao Valor="0"/>
+              <Fraca Valor="0"/>
+            </Ligacao>
+          </Ligacoes>
+        </Atributo>
+      </Atributos>
+      <AtributosOcultos/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <AutoRelacoes AutoRelacionado="0"/>
+      <Especializacoes ehEsp="0"/>
+    </Entidade>
+    <Entidade nome="PROJETO" id="52">
+      <Left Valor="484"/>
+      <Top Valor="273"/>
+      <Width Valor="102"/>
+      <Height Valor="66"/>
+      <Fonte default="0">
+        <FonteNome Valor="Tahoma"/>
+        <FonteTamanho Valor="8"/>
+        <FonteEstilo Valor="[]"/>
+        <FonteCor Valor="0"/>
+      </Fonte>
+      <Atributos>
+        <Atributo nome="Data_Término" id="69">
+          <Left Valor="524"/>
+          <Top Valor="405"/>
+          <Width Valor="94"/>
+          <Height Valor="16"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Atributos/>
+          <AtributosOcultos/>
+          <Dicionario></Dicionario>
+          <Nula Valor="0"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <MaxCard Valor="1"/>
+          <MinCard Valor="1"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <Multivalorado Valor="0"/>
+          <Orientacao Valor="3"/>
+          <TamAuto Valor="-1"/>
+          <Desvio Valor="10"/>
+          <BarraID Valor="70"/>
+          <Ligacoes>
+            <Ligacao Destino_ID="52">
+              <MostraCardinalidade Valor="0" Card_id="71"/>
+              <Cardinalidades Cardinalidade="4"/>
+              <Orientacao Valor="0"/>
+              <Fraca Valor="0"/>
+            </Ligacao>
+          </Ligacoes>
+        </Atributo>
+        <Atributo nome="Valor" id="72">
+          <Left Valor="609"/>
+          <Top Valor="374"/>
+          <Width Valor="51"/>
+          <Height Valor="16"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Atributos/>
+          <AtributosOcultos/>
+          <Dicionario></Dicionario>
+          <Nula Valor="0"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <MaxCard Valor="1"/>
+          <MinCard Valor="1"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <Multivalorado Valor="0"/>
+          <Orientacao Valor="3"/>
+          <TamAuto Valor="-1"/>
+          <Desvio Valor="10"/>
+          <BarraID Valor="73"/>
+          <Ligacoes>
+            <Ligacao Destino_ID="52">
+              <MostraCardinalidade Valor="0" Card_id="74"/>
+              <Cardinalidades Cardinalidade="4"/>
+              <Orientacao Valor="0"/>
+              <Fraca Valor="0"/>
+            </Ligacao>
+          </Ligacoes>
+        </Atributo>
+        <Atributo nome="Data_inicio" id="75">
+          <Left Valor="544"/>
+          <Top Valor="389"/>
+          <Width Valor="79"/>
+          <Height Valor="16"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Atributos/>
+          <AtributosOcultos/>
+          <Dicionario></Dicionario>
+          <Nula Valor="0"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <MaxCard Valor="1"/>
+          <MinCard Valor="1"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <Multivalorado Valor="0"/>
+          <Orientacao Valor="3"/>
+          <TamAuto Valor="-1"/>
+          <Desvio Valor="10"/>
+          <BarraID Valor="76"/>
+          <Ligacoes>
+            <Ligacao Destino_ID="52">
+              <MostraCardinalidade Valor="0" Card_id="77"/>
+              <Cardinalidades Cardinalidade="4"/>
+              <Orientacao Valor="0"/>
+              <Fraca Valor="0"/>
+            </Ligacao>
+          </Ligacoes>
+        </Atributo>
+        <Atributo nome="Num_projeto" id="78">
+          <Left Valor="504"/>
+          <Top Valor="424"/>
+          <Width Valor="89"/>
+          <Height Valor="16"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Atributos/>
+          <AtributosOcultos/>
+          <Dicionario></Dicionario>
+          <Nula Valor="0"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <MaxCard Valor="1"/>
+          <MinCard Valor="1"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="-1"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <Multivalorado Valor="0"/>
+          <Orientacao Valor="3"/>
+          <TamAuto Valor="-1"/>
+          <Desvio Valor="10"/>
+          <BarraID Valor="79"/>
+          <Ligacoes>
+            <Ligacao Destino_ID="52">
+              <MostraCardinalidade Valor="0" Card_id="80"/>
+              <Cardinalidades Cardinalidade="4"/>
+              <Orientacao Valor="0"/>
+              <Fraca Valor="0"/>
+            </Ligacao>
+          </Ligacoes>
+        </Atributo>
+      </Atributos>
+      <AtributosOcultos/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <AutoRelacoes AutoRelacionado="0"/>
+      <Especializacoes ehEsp="0"/>
+    </Entidade>
+    <Entidade nome="CONSULTOR" id="56">
+      <Left Valor="846"/>
+      <Top Valor="273"/>
+      <Width Valor="102"/>
+      <Height Valor="66"/>
+      <Fonte default="0">
+        <FonteNome Valor="Tahoma"/>
+        <FonteTamanho Valor="8"/>
+        <FonteEstilo Valor="[]"/>
+        <FonteCor Valor="0"/>
+      </Fonte>
+      <Atributos>
+        <Atributo nome="Num_Consultor" id="81">
+          <Left Valor="866"/>
+          <Top Valor="439"/>
+          <Width Valor="100"/>
+          <Height Valor="16"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Atributos/>
+          <AtributosOcultos/>
+          <Dicionario></Dicionario>
+          <Nula Valor="0"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <MaxCard Valor="1"/>
+          <MinCard Valor="1"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="-1"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <Multivalorado Valor="0"/>
+          <Orientacao Valor="3"/>
+          <TamAuto Valor="-1"/>
+          <Desvio Valor="10"/>
+          <BarraID Valor="82"/>
+          <Ligacoes>
+            <Ligacao Destino_ID="56">
+              <MostraCardinalidade Valor="0" Card_id="83"/>
+              <Cardinalidades Cardinalidade="4"/>
+              <Orientacao Valor="0"/>
+              <Fraca Valor="0"/>
+            </Ligacao>
+          </Ligacoes>
+        </Atributo>
+        <Atributo nome="Num_Ident" id="84">
+          <Left Valor="906"/>
+          <Top Valor="390"/>
+          <Width Valor="80"/>
+          <Height Valor="16"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Atributos/>
+          <AtributosOcultos/>
+          <Dicionario></Dicionario>
+          <Nula Valor="0"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <MaxCard Valor="1"/>
+          <MinCard Valor="1"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <Multivalorado Valor="0"/>
+          <Orientacao Valor="3"/>
+          <TamAuto Valor="-1"/>
+          <Desvio Valor="10"/>
+          <BarraID Valor="85"/>
+          <Ligacoes>
+            <Ligacao Destino_ID="56">
+              <MostraCardinalidade Valor="0" Card_id="86"/>
+              <Cardinalidades Cardinalidade="4"/>
+              <Orientacao Valor="0"/>
+              <Fraca Valor="0"/>
+            </Ligacao>
+          </Ligacoes>
+        </Atributo>
+        <Atributo nome="Nome" id="87">
+          <Left Valor="886"/>
+          <Top Valor="414"/>
+          <Width Valor="54"/>
+          <Height Valor="16"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Atributos/>
+          <AtributosOcultos/>
+          <Dicionario></Dicionario>
+          <Nula Valor="0"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <MaxCard Valor="1"/>
+          <MinCard Valor="1"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <Multivalorado Valor="0"/>
+          <Orientacao Valor="3"/>
+          <TamAuto Valor="-1"/>
+          <Desvio Valor="10"/>
+          <BarraID Valor="88"/>
+          <Ligacoes>
+            <Ligacao Destino_ID="56">
+              <MostraCardinalidade Valor="0" Card_id="89"/>
+              <Cardinalidades Cardinalidade="4"/>
+              <Orientacao Valor="0"/>
+              <Fraca Valor="0"/>
+            </Ligacao>
+          </Ligacoes>
+        </Atributo>
+        <Atributo nome="Especialização" id="90">
+          <Left Valor="926"/>
+          <Top Valor="367"/>
+          <Width Valor="95"/>
+          <Height Valor="16"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[]"/>
+            <FonteCor Valor="0"/>
+          </Fonte>
+          <Atributos/>
+          <AtributosOcultos/>
+          <Dicionario></Dicionario>
+          <Nula Valor="0"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <MaxCard Valor="1"/>
+          <MinCard Valor="1"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="VARCHAR( )"/>
+          <Multivalorado Valor="0"/>
+          <Orientacao Valor="3"/>
+          <TamAuto Valor="-1"/>
+          <Desvio Valor="10"/>
+          <BarraID Valor="91"/>
+          <Ligacoes>
+            <Ligacao Destino_ID="56">
+              <MostraCardinalidade Valor="0" Card_id="92"/>
+              <Cardinalidades Cardinalidade="4"/>
+              <Orientacao Valor="0"/>
+              <Fraca Valor="0"/>
+            </Ligacao>
+          </Ligacoes>
+        </Atributo>
+      </Atributos>
+      <AtributosOcultos/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <AutoRelacoes AutoRelacionado="0"/>
+      <Especializacoes ehEsp="0"/>
+    </Entidade>
+  </Entidades>
+	<Relacoes>
+    <Relacao nome="Solicitou" id="53">
+      <Left Valor="315"/>
+      <Top Valor="281"/>
+      <Width Valor="102"/>
+      <Height Valor="51"/>
+      <Fonte default="0">
+        <FonteNome Valor="Tahoma"/>
+        <FonteTamanho Valor="8"/>
+        <FonteEstilo Valor="[]"/>
+        <FonteCor Valor="0"/>
+      </Fonte>
+      <Atributos/>
+      <AtributosOcultos/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <SetaDirecao Valor="0"/>
+      <Ligacoes>
+        <Ligacao Destino_ID="51">
+          <MostraCardinalidade Valor="-1" Card_id="54"/>
+          <Cardinalidades Cardinalidade="4">
+            <Cardinalidade nome="" id="54">
+              <Left Valor="245"/>
+              <Top Valor="291"/>
+              <Width Valor="37"/>
+              <Height Valor="20"/>
+              <Fonte default="0">
+                <FonteNome Valor="Tahoma"/>
+                <FonteTamanho Valor="8"/>
+                <FonteEstilo Valor="[]"/>
+                <FonteCor Valor="0"/>
+              </Fonte>
+              <Atributos/>
+              <AtributosOcultos/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="4"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+        <Ligacao Destino_ID="52">
+          <MostraCardinalidade Valor="-1" Card_id="55"/>
+          <Cardinalidades Cardinalidade="4">
+            <Cardinalidade nome="" id="55">
+              <Left Valor="449"/>
+              <Top Valor="291"/>
+              <Width Valor="37"/>
+              <Height Valor="20"/>
+              <Fonte default="0">
+                <FonteNome Valor="Tahoma"/>
+                <FonteTamanho Valor="8"/>
+                <FonteEstilo Valor="[]"/>
+                <FonteCor Valor="0"/>
+              </Fonte>
+              <Atributos/>
+              <AtributosOcultos/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="4"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+      </Ligacoes>
+    </Relacao>
+    <Relacao nome="Participou" id="57">
+      <Left Valor="656"/>
+      <Top Valor="281"/>
+      <Width Valor="102"/>
+      <Height Valor="51"/>
+      <Fonte default="0">
+        <FonteNome Valor="Tahoma"/>
+        <FonteTamanho Valor="8"/>
+        <FonteEstilo Valor="[]"/>
+        <FonteCor Valor="0"/>
+      </Fonte>
+      <Atributos/>
+      <AtributosOcultos/>
+      <Dicionario></Dicionario>
+      <Nula Valor="0"/>
+      <Observacao></Observacao>
+      <Futuro></Futuro>
+      <Anexos/>
+      <SetaDirecao Valor="0"/>
+      <Ligacoes>
+        <Ligacao Destino_ID="52">
+          <MostraCardinalidade Valor="-1" Card_id="58"/>
+          <Cardinalidades Cardinalidade="4">
+            <Cardinalidade nome="" id="58">
+              <Left Valor="586"/>
+              <Top Valor="291"/>
+              <Width Valor="37"/>
+              <Height Valor="20"/>
+              <Fonte default="0">
+                <FonteNome Valor="Tahoma"/>
+                <FonteTamanho Valor="8"/>
+                <FonteEstilo Valor="[]"/>
+                <FonteCor Valor="0"/>
+              </Fonte>
+              <Atributos/>
+              <AtributosOcultos/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="4"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+        <Ligacao Destino_ID="56">
+          <MostraCardinalidade Valor="-1" Card_id="59"/>
+          <Cardinalidades Cardinalidade="4">
+            <Cardinalidade nome="" id="59">
+              <Left Valor="811"/>
+              <Top Valor="291"/>
+              <Width Valor="37"/>
+              <Height Valor="20"/>
+              <Fonte default="0">
+                <FonteNome Valor="Tahoma"/>
+                <FonteTamanho Valor="8"/>
+                <FonteEstilo Valor="[]"/>
+                <FonteCor Valor="0"/>
+              </Fonte>
+              <Atributos/>
+              <AtributosOcultos/>
+              <Dicionario></Dicionario>
+              <Nula Valor="0"/>
+              <Observacao></Observacao>
+              <Futuro></Futuro>
+              <Anexos/>
+              <Cor Valor="15780518"/>
+              <TamAuto Valor="-1"/>
+              <Tipo Valor="0"/>
+              <TextAlin Valor="0"/>
+              <Card Valor="4"/>
+              <Fixa Valor="0"/>
+              <Ligacoes/>
+            </Cardinalidade>
+          </Cardinalidades>
+          <Orientacao Valor="0"/>
+          <Fraca Valor="0"/>
+        </Ligacao>
+      </Ligacoes>
+    </Relacao>
+  </Relacoes>
+	<EntAssoss>
+	</EntAssoss>
+	<Texto>
+	</Texto>
+</MER>
